@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hospital/static/css/main.974ff763.css",
+    "main.js": "/hospital/static/js/main.12ee7c3e.js",
+    "static/js/787.b5bfac4d.chunk.js": "/hospital/static/js/787.b5bfac4d.chunk.js",
+    "static/media/embryo_819056.png": "/hospital/static/media/embryo_819056.4be51b667eeb4ec23926.png",
+    "static/media/stomach_9056025.png": "/hospital/static/media/stomach_9056025.9b9b00c3498e0973845a.png",
+    "static/media/brainstorm_1786985.png": "/hospital/static/media/brainstorm_1786985.15b94a8457f7cbaca5d5.png",
+    "static/media/lungs_1834916.png": "/hospital/static/media/lungs_1834916.b72a237fa1585061afd7.png",
+    "static/media/pediatric.png": "/hospital/static/media/pediatric.38ae24444cf17542dd85.png",
+    "static/media/black-ribbon_6056687.png": "/hospital/static/media/black-ribbon_6056687.569ad33dcb74f6bbf077.png",
+    "static/media/orthopedics_6177173.png": "/hospital/static/media/orthopedics_6177173.d829501de859adc085b4.png",
+    "static/media/heart-rate-monitor_3703527.png": "/hospital/static/media/heart-rate-monitor_3703527.236bb3be410a093ba470.png",
+    "static/media/services_5346638.png": "/hospital/static/media/services_5346638.55d3563883a7eec5d0ce.png",
+    "static/media/blueprint_2704934.png": "/hospital/static/media/blueprint_2704934.aa5acc2b5ad1daa56610.png",
+    "index.html": "/hospital/index.html",
+    "main.974ff763.css.map": "/hospital/static/css/main.974ff763.css.map",
+    "main.12ee7c3e.js.map": "/hospital/static/js/main.12ee7c3e.js.map",
+    "787.b5bfac4d.chunk.js.map": "/hospital/static/js/787.b5bfac4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.974ff763.css",
+    "static/js/main.12ee7c3e.js"
+  ]
+}
