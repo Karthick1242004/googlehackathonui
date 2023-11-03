@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.homain{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    margin-left: -1%;
+    margin-top: -1%;
+    width: fill;
+    margin-right: -1%;
+    height: 820px;
+}
+.homn{  
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.hocont{
+    display: flex;
+    gap: 50px;
+}
+.horiz{
+    width: 920px;
+    height: 685px;
+    border-radius: 30px;
+    background-color: rgb(237, 226, 249);
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.hm1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.hm1 p:hover {
+    transform: scale(1.1);
+    color: rgb(213, 130, 238);
+}
+.hm1 p{
+    margin-top: -1.5%;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    transition: 400ms;
+
+}
+.icnm{
+    color: rgb(91, 91, 91);
+    transition: 400ms;
+}
+.icnm:hover{
+    transform: scale(1.1);
+    color: rgb(213, 130, 238);
+}
+.mh1{
+    font-size: 35px;
+    margin-top: -10%;
+    font-weight: 600;
+}
+.horem{
+    background-color: white;
+    height: 140px;
+    width: 630px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: -11%;
+}
+.hotask{
+    height: 400px;
+    width: 640px;
+    border-radius: 20px;
+    padding-left:10px ;
+    margin-top: -15%;
+    padding-right: 50px;
+}
+.hotask h3{
+    font-size: 25px;
+}
+.horem h1{
+   color: rgb(47, 47, 243);
+   font-weight: 500;
+   font-size: 30px;
+   margin-top: 1%;
+}
+.sub1 p{
+    width: 220px;
+    margin-top: -2%;
+    border-right: 1px solid black;
+    font-size: 13px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    
+}
+.sub2{
+    margin-top: -1%;
+    margin-left: 5%;
+    border-right: 1px solid black;
+    width: 150px;
+    height: 40px;
+}
+.sub2 p{
+    margin-top: -1%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+.btn11{
+    margin-left: 20%;
+    height: 35px;
+    width: 120px;
+    background-color: #fbc583;
+    border: none;
+    border-radius: 6px;
+    color: rgb(135, 94, 18);
+}
+.sub3{
+    width: 200px;
+}
+span{
+    color: rgb(174, 167, 167);
+}
+
+.imgc{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 130%;
+    margin-left: -1%;
+}
+.ac{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-top: -2%;
+}
+.ac h1{
+    font-size: 15px;
+}
+.ac p{
+    font-size: 13px;
+    margin-top: -4%;
+}
+.hoimg{
+    width: 50px;
+    height: 50px;
+    margin-left: -40%;
+}
+.mn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.mn1{
+    width: 170px ;
+    height: 200px;
+    background-color: rgb(249, 252, 148);
+    border-radius: 15px;
+    text-align: center;    
+}
+.mn h3{
+    font-size: 16px;
+    font-weight: 600;   
+}
+.mn p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.mn4{
+    width: 170px ;
+    height: 200px;
+    background-color: rgb(154, 249, 162);
+    border-radius: 15px;
+    text-align: center;
+}
+.mn2{
+    width: 170px ;
+    height: 200px;
+    background-color: rgb(255, 199, 199);
+    border-radius: 15px;
+    text-align: center;
+}
+.mn3{
+    width: 170px ;
+    height: 200px;
+    background-color: rgb(255, 219, 153);
+    border-radius: 15px;
+    text-align: center;
+}
+.btn12{
+    width: 110px;
+    height: 35px;
+    color: white;
+    background-color: rgb(194, 59, 253);
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.hbell{
+    width: 20px;
+    height: 20px;
+    padding: 17px 17px;
+    border-radius: 20px;
+    margin-top: -19%;
+    margin-left: 86%;
+    background-color: rgb(105, 50, 147);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.innerhoriz{
+    background: white;
+    width: 870px;
+    height: 650px;
+    position: relative;
+    top:-80px;
+    border-radius: 35px;
+}
+.addsavebutton1,.addsavebutton2{
+margin-top: 50px;
+margin-left: 40px;
+border: none;
+font-size: medium;
+border-radius: 9px;
+padding: 10px;
+display: block;
+text-decoration: none;
+width:130px;
+color: white;
+text-align: center;
+}
+.addsavebutton1{
+    background-color: green;
+}
+.addsavebutton2{
+    background-color: red;
+}
+.addoption{
+    display: flex;
+}
+.adddetails{
+    background-color: rgb(237, 237, 164);
+    width: 780px;
+    height: 470px;
+    position: relative;
+    top:20px;
+    left: 47px;
+    border-radius: 35px;
+
+}
+form{
+    line-height: 90px;
+   
+}  
+form label{
+    margin-left: 10%;
+}
+.formcontrol{
+    float: right;
+    margin-right: 20%;
+    border:2px solid  purple;
+    margin-top: 3%;
+    border-radius: 5px;
+    padding: 10px 85px 10px 30px;
+    background: transparent;
+}
+.formgroup{
+    position: relative;
+    top:20px;
+}
+.dropformcontrol{
+    float: right;
+    margin-right: 20%;
+    border:2px solid  purple;
+    margin-top: 3%;
+    border-radius: 5px;
+    padding: 10px 80px 10px 80px;
+    background: transparent;
+
+}
+.dropformcontrol1{
+    float: right;
+    margin-right: 20%;
+    border:2px solid  purple;
+    margin-top: 3%;
+    border-radius: 5px;
+    padding: 10px 70px 10px 80px;
+    background: transparent;
+
+}
+
+.timeformcontrol,
+.timeformcontrolsecond {
+    float: right;
+    
+    border: 2px solid purple;
+    margin-top: 2%;
+    border-radius: 5px;
+ /* Matched padding with other inputs */
+    background: transparent;
+}
+
+.timeformgroup{
+    position: relative;
+    top:20px;
+    display: block;
+}
+.timeformcontrol{
+position: relative;
+left: -300px;
+padding: 10px 30px 10px 12px;
+}
+.timeformcontrolsecond{
+    padding: 10px 12px 10px 30px;
+  position: relative;
+ 
+}

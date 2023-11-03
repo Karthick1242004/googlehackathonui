@@ -1,79 +1,103 @@
-import logo1 from './components/image/heart-rate-monitor_3703527.png';
-import logo2 from './components/image/brainstorm_1786985.png';
-import logo3 from './components/image/stomach_9056025.png';
-import logo4 from './components/image/orthopedics_6177173.png';
-import logo5 from './components/image/black-ribbon_6056687.png';
-import logo6 from './components/image/embryo_819056.png';
-import logo7 from './components/image/lungs_1834916.png';
-import logo8 from './components/image/pediatric.png';
-import logo9 from './components/image/services_5346638.png';
-import logo10 from './components/image/blueprint_2704934.png';
-import logo11 from './components/image/hos.jpg';
-import './App.css';
-import {Link } from 'react-router-dom';
-import Nav from './components/Nav';
-import Appointment from './components/Appointment';
-import Special from './components/Special';
-import Footer from './components/Footer';
-
-
+import React, { useState } from 'react';
+import Ho from './Home.module.css';
+import Logo2 from "./Components/Images/logo2.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div className="App">
-      <Nav/>
-      <div className="aim">
-        <h1>The <span>AIIMS</span> World of <span>Care</span></h1>
-        <p>Welcome to AIIMS Hospital, a world-renowned medical institution committed to excellence in healthcare. With state-of-the-art facilities and a dedicated team of experts, we provide cutting-edge medical services, education, and research. Your well-being is our priority, and we strive to deliver compassionate and personalized care to every patient. Experience the pinnacle of medical expertise at AIIMS Hospital, where innovation meets compassion. Your journey to better health starts here.</p>
-        <Link to="/Adminlogin" className="btn2" >View Health Records</Link>
+    <div className={Ho.homain}>
+      <div className={Ho.hocont}>
+      <div className={Ho.homn}>
+         <h1>Logo</h1>
+         <div className={Ho.hm1}>
+            <FontAwesomeIcon icon={faHouse} className={Ho.icnm} />
+            <Link to='/Home' className={Ho.lin1}>Dashboard</Link>
+         </div>
+         <div className={Ho.hm1}>
+            <FontAwesomeIcon icon={faCalendarCheck} className={Ho.icnm} />
+            <Link to='/Invitation' className={Ho.lin1}>Invitations</Link>
+         </div>
+         <div className={Ho.hm1}>
+            <FontAwesomeIcon icon={faPaperclip} className={Ho.icnm}/>
+            <Link to='/Activity' className={Ho.lin1}>Your Activities</Link>
+         </div>
+         <div className={Ho.hm1}>
+            <FontAwesomeIcon icon={faFacebookMessenger} className={Ho.icnm}/>
+            <Link to='/Chat' className={Ho.lin1}>Chat</Link>
+         </div>
+         <div className={Ho.hm1}>
+            <FontAwesomeIcon icon={faGear} className={Ho.icnm}/>
+            <Link to='/Setting' className={Ho.lin1}>Settings</Link>
+         </div>
+         <div className={Ho.imgc}>
+         <div className={Ho.icn}>
+          <img src={Logo2} className={Ho.hoimg} alt="profile"/>
+         </div>
+         <div className={Ho.ac}>
+         <h1>Kamalesh J</h1>
+         <p>kamaleshj.21cse@kongu.edu</p>
+         </div>
+         </div>
       </div>
-      <p className="bot">+Learn about the world class healthcare we provide</p>
-      <Appointment/>
-        <p className="bot2">+Learn about the world class healthcare we provide</p>
-        <div className='why'>
-          <h1>Why<span> Choose AIIMS</span> Healthcare</h1>
-        </div>
-        <div className='why2'>
-          <p>Established by Dr Prathap C Reddy in 1983, AIIMS Healthcare has a robust presence across the healthcare ecosystem. From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, AIIMS Hospitals has touched more than 200 million lives from over 120 countries.</p>
-        </div>
-        <div className='why3'>
-        <div className='why4'>
-        <img src={logo9} className="logo9" alt="logo" />
-        <h1>73+</h1>
-        <p>Largest private healthcare network of Hospitals in India</p>
-        </div>
-        <div className='why4'>
-        <img src={logo9} className="logo9" alt="logo" />
-        <h1>400+</h1>
-        <p>Largest private network of clinics across India</p>
-        </div>
-        <div className='why4'>
-        <img src={logo10} className="logo10" alt="logo" />
-        <h1>1100+</h1>
-        <p>Diagnostic centres across India</p>
-        </div>
-        <div className='why4'>
-        <img src={logo10} className="logo10" alt="logo" />
-        <h1>5000+</h1>
-        <p>Pharmacies across India</p>
-        </div>
-        <div className='why4'>
-        <img src={logo10} className="logo10" alt="logo" />
-        <h1>11000+</h1>
-        <p>Doctors present across India</p>
-        </div>
-        <div className='why4'>
-        <img src={logo10} className="logo10" alt="logo" />
-        <h1>10000+</h1>
-        <p>Pin codes Served across India</p>
-        </div>
-        </div>
-        <p className="bot3">+Learn about the world class healthcare we provide</p>
-      <Special/>
-      <Footer/>
+      <div className={Ho.horiz}>
+        <h1 className={Ho.mh1}>Dashboard</h1>
+        <FontAwesomeIcon icon={faBell} className={Ho.hbell} />
+         <div className={Ho.horem}>
+            <h1>Reminder</h1>
+            <div className={Ho.sub}>
+            <div className={Ho.sub1}>
+            <p>30 mins to take<br/>your medicine pills </p>
+            </div>
+            <div className={Ho.sub2}>
+              <p>Time to take  <br/><span>10:45 AM</span></p>
+            </div>
+            <div className={Ho.sub3}>
+              <button className={Ho.btn11} type='submit'>in Progress</button>
+            </div>
+            </div>
+         </div>
+         <div className={Ho.hotask}>
+            <h3>Todays Tasks</h3>
+            <div className={Ho.mn}>
+              <div className={Ho.mn1}>
+                <h3>Take Medicine</h3><br/>
+                <p>Time to take</p>
+                <p>12:10pm</p>
+                <button type='submit' className={Ho.btn12}>Pending</button>
+              </div>
+              <div className={Ho.mn4}>
+              <h3>Take Medicine</h3><br/>
+                <p>Time to take</p>
+                <p>12:10pm</p>
+                <button type='submit' className={Ho.btn12}>Pending</button>
+              </div>
+              <div className={Ho.mn2}>
+              <h3>Take Medicine</h3><br/>
+                <p>Time to take</p>
+                <p>12:10pm</p>
+                <button type='submit' className={Ho.btn12}>Pending</button>
+              </div>
+              <div className={Ho.mn3}>
+              <h3>Take Medicine</h3><br/>
+                <p>Time to take</p>
+                <p>12:10pm</p>
+                <button type='submit' className={Ho.btn12}>Pending</button>
+              </div>
+            </div>
+         </div>
       </div>
-    
+      <div className={Ho.cla}>
+       
+      </div>
+      </div>
+    </div>
   );
 }
-
 export default Home;

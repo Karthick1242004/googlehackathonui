@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.homain{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    margin-left: -1%;
+    margin-top: -1%;
+    width: fill;
+    margin-right: -1%;
+    height: 840px;
+}
+.homn{  
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hocont{
+    display: flex;
+    gap: 50px;
+}
+.horiz{
+    width: 880px;
+    height: 685px;
+    border-radius: 30px;
+    background-color: rgb(237, 226, 249);
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.hm1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.hm1 p:hover {
+    transform: scale(1.05);
+    color: rgb(213, 130, 238);
+    border-right: 3px solid rgb(213, 130, 238);
+}
+.hm1 p{
+    margin-top: -1.5%;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    transition: 400ms;
+    width: 200px;
+   
+}
+.icnm{
+    color: rgb(91, 91, 91);
+    transition: 400ms;
+}
+.icnm:hover{
+    transform: scale(1.1);
+    color: rgb(213, 130, 238);
+}
+.mh1{
+    font-size: 35px;
+    margin-top: -10%;
+    font-weight: 600;
+}
+.horem{
+    background-color: white;
+    height: 140px;
+    width: 630px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: -11%;
+}
+.hotask{
+    height: 400px;
+    width: 640px;
+    border-radius: 20px;
+    padding-left:10px ;
+    margin-top: -15%;
+    padding-right: 50px;
+}
+.hotask h3{
+    font-size: 25px;
+}
+.horem h1{
+   color: rgb(47, 47, 243);
+   font-weight: 500;
+   font-size: 30px;
+   margin-top: 1%;
+}
+
+.imgc{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 130%;
+    margin-left: -1%;
+}
+.ac{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-top: -2%;
+}
+.ac h1{
+    font-size: 15px;
+}
+.ac p{
+    font-size: 13px;
+    margin-top: -4%;
+}
+.hoimg{
+    width: 50px;
+    height: 50px;
+    margin-left: -40%;
+}
+
+.chat{
+    margin-top: -12%;
+    width: 820px;
+    height: 650px;
+    border-radius:20px ;
+    background-color: white;
+}
+.chat1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 660px;
+    margin-left: 4%;
+}
+.chat1 h3{
+    margin-left: -9%;
+    margin-top: 4.5%;
+    font-weight:  500;
+    font-size: 18px;
+}
+.chat1 p{
+    font-weight: 200;
+    font-size: 13px;
+    margin-top: 5%;
+}
+.ivbt{
+    width: 100px;
+    height: 30px;
+    margin-top: 3.5%;
+    background-color: #0FA958;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 400ms;
+}
+.ivbt:hover{
+    transform: scale(1.1);
+    background-color: #0d723c;
+}
+hr{
+    width: 635px;
+    margin-top: -1%;
+    background-color: #d5d2d2;
+    height: 2px;
+    border: none;
+    margin-left: 11%;
+}
+.pimg{
+    width: 70px;
+    height: 70px;
+}
+.lin1{
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 400ms;
+    width: 190px;
+}
+.lin1:hover{
+    transform: scale(1.1);
+    color: rgb(213, 130, 238);
+    border-right: 3px solid rgb(213, 130, 238);
+}
